@@ -70,7 +70,7 @@ img{
     width: 0;
     background: white;
     margin-top: 4px;
-    transition: 0.5s;
+    transition: 0.4s;
     position: absolute;
  }
 
@@ -81,6 +81,22 @@ img{
      .header-menu a:hover{
         background-color: rgb(44, 42, 42);
     }
+
+    .botao::after {
+        content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background: white;
+    margin-top: 4px;
+    transition: 0.4s;
+    position: absolute;
+     }
+
+     .botao:hover:after{
+        width: 8%;
+     }
+   
 
     @media (max-width: 600px) {
         .header-menu{
@@ -156,4 +172,5 @@ img{
         cursor: pointer;
 
      }
+
    
