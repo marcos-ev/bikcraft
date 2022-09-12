@@ -1,7 +1,7 @@
 
 .introducao-bg{
     background: black;
-    color: white;
+    color: rgb(15, 12, 12);
     
 }
 
@@ -12,13 +12,14 @@
     display: block;
     height: 2px;
     width: 0;
-    background: rgb(244, 236, 236);
+    background: rgb(12, 12, 12);
     margin-top: 4px;
     transition: 0.4s;
     position: absolute;
      }
 
      .botao:hover:after{
-        width: 8%;
+        width: 4.5%;
      }
+
    
