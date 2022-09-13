@@ -20,3 +20,11 @@
      .botao:hover:after{
         width: 4.5%;
      }
+
+     @media (max-width:900) { 
+     .botao cor preta{
+        font-size: 21rem;
+
+     }
+
+      }

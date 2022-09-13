@@ -1,3 +1,8 @@
+.logo{
+    width: 200px;
+    margin-left: 10px;
+}
+
 .header-bg{
     background-color: black;
 }
@@ -8,14 +13,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 40px;
+    margin-right: 60px;
 
    
 }
 
 .header-menu{
-    gap: 40px;
+    gap: 60px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -23,7 +28,7 @@
 .header-menu a {
     padding: 16px 0px;
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.5rem;
     position: relative;
     }
 
@@ -48,7 +53,7 @@
 
    
 
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
         .header-menu{
             gap: 20px;
         }
@@ -63,14 +68,31 @@
          }
     }
 
-    @media (max-width:800px) {
+    @media (max-width:900px) {
         .header-menu{
             gap: 12px;
             padding: ;
         }
         .header-menu a {
-            padding: 8px 12px;
+            padding: 4px 6px;
             font-size: 16px;
-          
-        }
+            margin-left: 50%;
+            justify-content: space-between;
+            
+          }
+
+          .logo{
+            width: 150px;
+            padding: 5px;
+            text-align: center;
+            margin-left: -20px;
+                    
+        }       
     }
+
+    @media (max-width:600px) {
+        .logo{
+           margin-left: 50%;
+
+          }
+        }

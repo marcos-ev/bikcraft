@@ -7,7 +7,9 @@
 
 .introducao-conteudo{
     align-self: end;
-    padding-bottom: 200px;
+    padding-bottom: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 
@@ -55,12 +57,18 @@
    
     .introducao h1 {
         font-size: 2rem;
-        margin-bottom:16px;
-        padding: 10px
+        margin-bottom:1rem;
+        
     }
     .introducao a{
     
      padding: 10px 20px;
+    }
+
+    .introducao-conteudo{
+        margin-left: 20px;
+        justify-content: flex-start;
+        gap: 20px
     }
 
     .introducao p{

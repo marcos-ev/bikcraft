@@ -1,12 +1,13 @@
 .bicicletas-lista{
     padding-top: 60px;
     padding-bottom: 120px;
+
        
 }
 
 .bicicletas-lista span{ 
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif
 
 
@@ -14,12 +15,17 @@
 
 .bicicletas-lista h2{
    
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
+    margin-left: 40%;
+    margin-bottom: 20px ;
+    padding-bottom: 30px;
     
 }
 
 .bicicletas-lista li span{
     padding-left: 20px;
+    font-size: 1.2rem;
 
     }
 
@@ -82,8 +88,21 @@
         padding-bottom: 60px;
     }
 
+    .bicicletas-lista li h3{
+        font-size: 1rem;
+    }
+
+    .bicicletas-lista li span{
+        font-size: 1rem;;
+    }
+
     .bicicletas-lista ul{
         gap: 20px;
         overflow-x: auto;
     }
+
+    .bicicletas-lista h2{
+
+    margin-left: 20px;
+    font-size: 2.5rem;
      }
