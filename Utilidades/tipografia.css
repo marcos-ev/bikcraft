@@ -1,9 +1,15 @@
 .texto-grande {
     
-    font: 600 4rem/1.125 "poppins",sans-serif;
+    font: 600 3rem/1.125 'poppins',sans-serif;
 }
 
-.texto-medio{
+.texto-medio {
 
-    font: 400 1.5rem/1.5 "roboto",sans-serif;
+    font-family: 600 3rem/1.5 'poppins',sans-serif;
+}
+
+.tecnologias {
+    font: 600 1rem/1.5 'roboto',sans-serif;
+        text-transform: uppercase;
+    
 }

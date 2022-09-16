@@ -40,7 +40,7 @@
 
  .introducao a {
     padding:  16px 32px;
-    background: #e4bc08;
+    background: linear-gradient(#ffbf00, #f2a50c);
     display: inline-block;
     border-radius: 8px;
     box-shadow: 0px 1px 2px rgb(0 0 0 / 10%);
@@ -50,10 +50,9 @@
     max-width: max-content;
     border: none;
     cursor: pointer;
-    font-color
 }
 
-@media (max-width: 900px) { 
+@media (max-width: 800px) { 
    
     .introducao h1 {
         font-size: 2rem;
@@ -75,6 +74,13 @@
     
         font-size: 1rem;
     }
+    .botao:hover:after{
+        display: none;
+     }
 
+     .main botao{
+        
+     }
+    }
     
      
