@@ -32,4 +32,8 @@ img{
     display: block;
 }
 
+blockquote {
+    margin: 0px;
+}
+
 
