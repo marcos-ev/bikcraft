@@ -5,11 +5,14 @@
 
 .texto-medio {
 
-    font-family: 600 3rem/1.5 'poppins',sans-serif;
+    font-family: 600 2rem/1.125 'poppins',sans-serif;
 }
 
 .tecnologias {
     font: 600 1rem/1.5 'roboto',sans-serif;
         text-transform: uppercase;
-    
+    }
+
+.texto-medio-int {
+    font-family: 600 5rem/1.5 'poppins',sans-serif;
 }
