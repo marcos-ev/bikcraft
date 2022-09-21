@@ -1,6 +1,14 @@
 .seguros{
     background:rgb(19, 18, 18);
     margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    
 }
 .seguros-title{
      font-size: 4rem;
@@ -39,17 +47,8 @@
     font-family: 'poppins'sans-serif;
     font-weight: 600;
 }
+ 
 
-.seguros{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    align-items: center;
-    text-align: center;
-    
-}
 
 .seguros h2{
     grid-column: 1/-1;
@@ -57,17 +56,71 @@
 
 .seguros-item{
     background-color:black;
-    padding: 60px;
+    padding: 32px 32px 32px 60px;
+    grid-template-columns: 1fr auto ;
     
 }
 
-.inscreva-se {
-    margin-top: 60px;
+.vantagens-seguro li{
+    padding: 5px;
+}
+
+.seguros .valor-prata::before{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 150px;
+    background: rgb(255, 255, 255);
+    margin-top: -30px;
+    position: absolute;
     align-items: center;
 }
 
-.vantagens-seguro ul{
-    
+.seguros .valor-ouro::before{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 150px;
+    background: rgb(255, 255, 255);
+    margin-top:-30px;
+    position: absolute;
+    align-items: center;
 }
+
+
+
+
+.seguros-item span{
+    grid-column: 2;
+    margin-bottom: 80px;
+   
+}
+
+.seguros-item ul{
+    grid-column: 1/-1;
+    margin-bottom: 32px;
+}
+.seguros-item a{
+    grid-column: 1/-1;
+}
+
+.seguros-item li::before {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url("../../img/icones/lista.svg");
+    left: -5px;
+    align-items: center;
+    position: relative;
+  }
+
+
+@media (max-width: 800px) {
+    .seguros {
+      grid-template-columns: 1fr;
+    }
+  }
+  
 
 

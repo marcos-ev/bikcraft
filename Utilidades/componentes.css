@@ -35,6 +35,17 @@
         color: white;
       }
 
+      .secundario::after{
+        content: "";
+        display: block;
+        height: 2px;
+        width: 0;
+        background: white;
+        margin-top: 4px;
+        transition: 0.4s;
+        position: absolute;
+      }
+
       .botao.secundario:hover{
         background: #404040;
       }
