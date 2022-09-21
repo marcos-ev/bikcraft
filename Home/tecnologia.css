@@ -70,10 +70,9 @@
     font-weight: 400;
   }
   
-  @media (max-width: 800px) {
-    .tecnologia-bg {
-      box-shadow: initial;
-    }
+  @media (max-width: 600px) {
+   
+    
     .tecnologia {
       grid-template-columns: 1fr;
     }
