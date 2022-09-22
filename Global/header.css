@@ -57,7 +57,7 @@
 
     @media (max-width: 900px) {
         .header-menu{
-            gap: 20px;
+            gap: 10px;
         }
         .header-menu a{
             
@@ -76,10 +76,10 @@
             
         }
         .header-menu a {
-            padding: 4px 6px;
+            padding: 4px 6px ;
             font-size: 16px;
             margin-left: 50%;
-            text-align: ;
+          position: relative;
             
           }
 

@@ -77,6 +77,21 @@
     .tecnologia {
       grid-template-columns: 1fr;
     }
+
+
+
+    .tecnologia-conteudo h2 {
+      font-size: 2.5rem;
+      margin-right: 25px;
+      text-align: left;
+       }
+    .tecnologia-conteudo p {
+      font-size: 1.2rem;
+      margin-right: 25px;
+      text-align: left;
+
+      
+    }
     .tecnologia-conteudo {
       padding-top: 60px;
       padding-bottom: 60px;
