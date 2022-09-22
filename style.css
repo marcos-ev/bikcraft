@@ -24,9 +24,9 @@
 @import "./bicicleta/seguro.css";
 
 /* Seguros */
-@import "./seguros/seguros.css";
-@import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/seguros.css";
 
 /* Contato */
 @import "./contato/contato.css";
@@ -36,4 +36,4 @@
 @import "./orcamento/orcamento.css";
 
 /* Termos */
-@import "./termos/termos.css";
+@import "./Termos/termos.css";
