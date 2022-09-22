@@ -46,6 +46,7 @@
 
 .introducao h1 {
   margin-bottom: 32px;
+
 }
 
 .introducao p {
@@ -69,6 +70,16 @@
   }
   .introducao h1 {
     margin-bottom: 16px;
+    text-align: center;
+    font-size: 2rem;
+      
+  }
+
+  .introducao a{
+    margin-left: 25%;
+  }
+  .introducao p {
+    text-align: center;
   }
   .introducao img {
     height: 300px;
