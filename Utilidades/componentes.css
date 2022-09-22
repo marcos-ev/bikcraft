@@ -21,6 +21,41 @@
   cursor: pointer;
 }
 
+.bintro{
+
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0,);
+  text-transform: uppercase;
+  color: black;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+}
+
+/*feito botao*/
+
+  .bintro{ 
+    transition: all .3s;
+    border: 2px transparent;
+}
+.bintro:hover{
+    border: 10px solid linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 50%;
+}
+
+
+
+
+.botao a:hover:after{
+  width: 70%;
+}
+
+
+
 
 
 
@@ -52,6 +87,11 @@
 
 @media (max-width: 600px) {
   .botao {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+
+  .bintro{
     padding: 12px 16px;
     font-size: 1rem;
   }
