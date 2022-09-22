@@ -18,7 +18,7 @@
 .bicicletas-imagem img {
   grid-area: 1/1;
   grid-area: 1/1;
-  place-self: start end;
+  place-self: center;
   margin-top: 20px;
   background: var(--cor-12);
   display: inline-block;
@@ -98,3 +98,5 @@
     place-self: start;
   }
 }
+
+
