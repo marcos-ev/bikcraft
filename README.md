@@ -32,7 +32,7 @@ Tanto o **wireframe** quanto o **design** do projeto **Bikcraft** foram desenvol
 # Clone o repositório
 git clone https://github.com/marcos-ev/bikcraft
 
-# Entre no diretórioaaaa
+# Entre no diretório
 cd bikcraft
 ```
 Depois disso, utilize uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e executar o projeto.
